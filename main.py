@@ -317,7 +317,7 @@ def get_attack_method(ip):
     if ip.startswith('91'):
         return "VC FLOOD", "ɢᴀᴍᴇ"
     elif ip.startswith(('00', '96')):
-        return None, "⚠️ ɪɴᴠᴀʟɪᴅ ɪᴘ - ɪᴘs sᴛᴀʀᴛɪɴɢ ᴡɪᴛʜ '15' ᴏʀ '96' ᴀʀᴇ ɴᴏᴛ ᴀʟʟᴏᴡᴇᴅ"
+        return None, "⚠️ ɪɴᴠᴀʟɪᴅ ɪᴘ - ɪᴘs sᴛᴀʀᴛɪɴɢ ᴡɪᴛʜ '00' ᴏʀ '96' ᴀʀᴇ ɴᴏᴛ ᴀʟʟᴏᴡᴇᴅ"
     else:
         return "BGMI FLOOD", "ɢᴀᴍᴇ"
 
